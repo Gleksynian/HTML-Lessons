@@ -1,0 +1,45 @@
+body {
+	background-color: khaki;
+}
+h1 {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 35px;
+	text-decoration: underline overline; 
+}
+h2{
+	font-family: serif;
+	font-size: 26px;
+	text-align: center;
+}
+h3 {
+	font-family: georgia;
+	font-size: 22px;
+	text-align: center;
+}
+p {
+	font-family: gill sans, sans-serif;
+	font-size: 18px;
+}
+table {
+	border: 2px groove SandyBrown;
+	background-color: LightGoldenRodYellow;
+	text-align: center;
+	width: 1000px
+}
+td {
+	border: 2px groove SandyBrown;
+}
+th {
+	border: 2px groove SandyBrown;
+}
+.pimg {
+	text-align: center;
+}
+.pwidth {
+	width: 1200px;
+	margin: 0 auto;
+	border: solid;
+	background-color: DarkKhaki;
+	padding: 10px 15px;
+}

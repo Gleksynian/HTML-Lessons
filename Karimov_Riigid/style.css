@@ -1,0 +1,17 @@
+table {
+	text-align: center;
+	vertical-align: middle;
+	background-color: #fbf1e4; /*Бежевый*/
+	border: 2px solid #76b5c5; /*Тёмно бирюзовый*/
+}
+td, th {
+	border-style: groove;
+	border: 2px solid #9c9ce1; /*Светло фиолетовый*/
+	font-family: Calibri;
+}
+p {
+	font-family: Times new roman;
+	text-align: left;
+	text-indent: 10px;
+	font-weight: lighter;
+}

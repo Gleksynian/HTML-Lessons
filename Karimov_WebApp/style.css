@@ -1,0 +1,178 @@
+
+.wrapper {
+    width: 1380px;
+    margin: auto;
+    font-family: Arial;
+
+    /* background-color: red; */
+}
+
+header {
+    width: 1300px;
+    margin-left: 40px;
+    float: left;
+
+    /* background-color: blue; */
+}
+
+h1 {
+    text-align: center;
+    float: left;
+    width: 930px;
+    color: #E7031E;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 0px #0A00CE, -1px -1px 0px #0A00CE, 1px -1px 0px #0A00CE, -1px 1px 0px #0A00CE, 4px 4px 3px #FFFFFF, 7px 8px 3px #0A00CE;
+}
+
+.ImgHeader {
+    /* background-color: darkgreen; */
+    width: 185px;
+    float: left;
+}
+
+.Logo {
+    width: 64px;
+    float: left;
+    margin-right: 20px;
+
+    border-radius: 64px;
+    border-top: 3px solid cadetblue;
+    border-left: 3px solid cadetblue;
+    border-bottom: 5px solid darkturquoise;
+    border-right: 5px solid darkturquoise;
+
+}
+
+aside {
+    /* background-color: aqua; */
+}
+
+.navigation {
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 60px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+main {
+    width: 800px;
+    float: left;
+
+    /* background-color: chartreuse; */
+}
+
+h2 {
+    text-align: center;
+    color: darkblue;
+    font-size: 20px;
+}
+
+section {
+    width: 395px;
+    float: left;
+
+    /* background-color: brown; */
+}
+
+article {
+    height: 200px;
+    text-align: justify;
+    /* background-color: yellow; */
+}
+
+article p {
+    padding: 0px 10px;
+    font-family: 'Times New Roman';
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 0px #08005F, -1px -1px 0px #08005F, 1px -1px 0px #08005F, -1px 1px 0px #08005F;
+}
+
+section article h3 {
+    font-size: 18px;
+    background: linear-gradient(0deg, rgba(177,0,0,1) 0%, rgba(34,8,103,1) 38%, rgba(9,9,121,1) 66%, rgba(255,255,255,1) 100%);
+}
+
+.articleImg {
+    width: 32px;
+    float: left;
+    margin-right: 5px;
+}
+
+span {
+    font-weight: 600;
+    font-family: Tahoma;
+}
+
+.HtmlSpan {
+    color: #f16529;
+}
+
+.BstrSpan {
+    color: #670ff2;
+}
+
+.CssSpan {
+    color: #2965f1;
+}
+
+.AjsSpan {
+    color: #dd0031;
+}
+
+.RightColumn {
+    margin-left: 10px;
+}
+
+.BottomSection {
+    width: 800px;
+    background-color: darkblue;
+}
+
+.BottomArticle {
+    width: 780px;
+    height: auto;
+    margin: 20px 10px;
+    color: darkblue;
+    background-color: white;
+}
+
+.news {
+    width: 300px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.news article h3 {
+    font-family: 'Times New Roman';
+    background-color: darkblue;
+}
+
+.news article {
+    height: auto;
+    color: darkblue;
+}
+
+footer {
+    width: 1300px;
+    margin-left: 40px;
+    margin-top: 150px;
+    clear: both;
+    text-align: center;
+    font-weight: 700;
+    color: darkblue;
+
+    /* background-color: violet; */
+}

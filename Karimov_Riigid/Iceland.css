@@ -1,0 +1,48 @@
+h1 {
+	font-family: Calibri;
+	font-size: 50px;
+	text-align: center;
+}
+h2 {
+	font-family: Arial;
+	font-size: 24px;
+	text-align: center;
+}
+h3 {
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: underline overline;
+}
+p {
+	font-family: Verdana;
+	text-align: justify;
+	text-indent: 15px;
+	font-size: 18px;
+	width: 1000px;
+	margin: 0px auto;
+}
+p span {
+	background-color: AntiqueWhite;
+}
+.pimg {
+	padding-top: 20px;
+	text-align: center;
+}
+img {
+	padding-right: 10px;
+}
+td, th {
+	border: 3px solid #7ba5ff;
+	background-color: #c2ddff;
+}
+body {
+	background-color: lavender;
+}
+.foodt {
+	text-align: center;
+	font-size: 16px;
+}
+h2 {
+	text-decoration: underline overline;
+}

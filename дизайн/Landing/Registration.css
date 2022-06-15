@@ -1,0 +1,165 @@
+.wrapper {
+	width: 877px;
+	height: 1024px;
+	margin: 0px auto;
+}
+
+
+input[type~="text"], textarea {
+	font-size: 20px;
+}
+
+p {
+	margin: 0px auto;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 44px;
+	/* identical to box height */
+
+	text-align: center;
+
+	color: #000000;
+	padding-top: 18px;
+}
+
+.Heading {
+	background: rgba(6, 255, 225, 0.41);
+	border-radius: 10px;
+	width: 600px;
+	height: 80px;
+	margin: 0px auto;
+	margin-top: 49px;
+}
+
+form {
+	font-family: Inter, sans-serif;
+	background-color: #C2C0FF;
+	font-size: 36px;
+	border-radius: 10px;
+	width: 738px;
+	height: 713px;
+	margin: 0px auto;
+	margin-top: 50px;
+}
+
+form input {
+	background: #DAFFFE;
+	border: 1px solid #00D8D8;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	width: 483px;
+	height: 48px;
+}
+
+.YourComment {
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 15px;
+	width: 598px;
+	height: 221px;
+	margin: 0px auto;
+}
+
+form section {
+	display: flex;
+	flex-direction: column;
+}
+
+form label {
+	margin-left: 69px;
+	line-height: 44px;
+}
+
+.FormsRow {
+	display: flex;
+	flex-direction: column;
+}
+
+article {
+	display: flex;
+	flex-direction: row;
+}
+
+.FirstInput {
+	margin-top: 97px;
+	margin-left: 43px;
+}
+
+.SecondInput {
+	margin-left: 45px;
+	margin-top: 17px;
+}
+
+.ThirdInput {
+	margin-left: 23px;
+	margin-top: 17px;
+}
+
+.FourthInput {
+	margin-left: 55px;
+	margin-top: 17px;
+}
+
+.FirstLabel {
+	margin-top: 97px;
+}
+
+.SecondLabel {
+	margin-top: 17px;
+}
+
+.ThirdLabel {
+	margin-top: 17px;
+}
+
+.FourthLabel {
+	margin-top: 17px;
+}
+
+.YourCommentLabel {
+	margin-top: 60px;
+	margin-left: 82px;
+}
+
+.FirstButton {
+	width: 225px;
+	height: 79px;
+	background: #B2FDA5;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+}
+
+.FirstButton a {
+	font-family: Inter, sans-serif;
+	font-size: 36px;
+	color: black;
+	text-decoration: none;
+}
+
+.buttons {
+	margin-top: 25px;
+	display: flex;
+	flex-direction: row;
+}
+
+.SecondButton button {
+	font-family: Inter, sans-serif;
+	font-size: 36px;
+	color: black;
+	text-decoration: none;
+	border: 0px;
+	background: #B2FDA5;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+	width: 225px;
+	height: 79px;
+}
+
+.SecondButton {
+	border-radius: 10px;
+	width: 225px;
+	height: 79px;
+	background-color: white;
+}

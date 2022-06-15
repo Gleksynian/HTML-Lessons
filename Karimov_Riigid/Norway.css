@@ -1,0 +1,74 @@
+body {
+	background-color: SkyBlue;
+}
+
+th {
+	padding-left: : 20px;
+	padding-right: 20px;
+}
+
+h1 {
+	text-align: center;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	font-family: "Arial";
+	background-color: DeepSkyBlue;
+}
+
+h2 {
+	font-family: Calibri;
+	font-size: 27px;
+	letter-spacing: 3px;
+	text-align: center;
+}
+
+h3{
+	font-family: Tahoma;
+	text-align: center;
+}
+
+p {
+	margin: 0 auto;
+	line-height: 30px;
+	text-align: justify;
+	font-family: Tahoma;
+	font-size: 18px;
+	width: 800px;
+}
+
+img {
+	border: 3px solid black;
+	margin: 0 auto;
+}
+
+.imageTable {
+	text-align: center;
+	width: 1590;
+	margin: 0 auto;
+}
+
+.imageTable td {
+	padding-right: 10px;
+	
+}
+
+.imageParagraph {
+	text-align: center;
+}
+table, {
+	padding-left: 350px;
+	width: 1600px;
+	border: groove;
+
+}
+td {
+	text-align: center;
+	vertical-align: middle;
+}
+td, th, tr {
+	border: ridge;
+
+}
+ul, li, a {
+	font-size: 20px;
+}

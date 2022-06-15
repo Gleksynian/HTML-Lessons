@@ -1,0 +1,91 @@
+body {
+	background: rgb(75,2,93);
+	background: linear-gradient(90deg, rgba(75,2,93,1) 0%, 	rgba(154,17,173,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+div {
+	width: 1380px;
+	background-color: white;
+	border: 0px solid white;
+	border-radius: 50px;
+	margin: 0px auto;
+}
+p {
+	font-family: Calibri;
+	font-size: 18px;
+}
+
+.Navigation {
+ 	float: left;
+ 	width: 160px;
+ 	background-color: white;
+ 	font-family: Calibri;
+ 	font-weight: bold;
+}
+
+.AsideRight {
+	position: fixed;
+	right: 158px;
+	bottom: 0;
+	float: right;
+	vertical-align: middle;
+	text-align: center;
+	width: 50px
+}
+
+header {
+	float: left;
+	width: 1380px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+main {
+	width: 1100px;
+	background-color: white;
+	float: left;
+	margin-left: 20px;
+}
+
+.Logo {
+	text-align: center;
+	margin: 0px auto;
+}	
+
+footer {
+	clear: both;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	font-family: Arial;
+	border: 0px solid darkviolet;
+	border-radius: 10px;
+	background: rgb(75,2,93);
+	background: linear-gradient(90deg, rgba(75,2,93,1) 0%, 	rgba(154,17,173,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+h1 {
+	font-family: Verdana;
+}
+
+article p {
+	text-indent: 20px;
+}
+
+h3 { 
+	font-family: Tahoma;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+ul {
+	font-family: calibri;
+}
+
+ul span {
+	font-weight: bold;
+}

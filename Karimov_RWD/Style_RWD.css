@@ -1,0 +1,238 @@
+img {
+    width: 32px;
+}
+
+.wrapper {
+    width: 75%;
+    margin: 0px auto;
+}
+
+header {
+    width: 100%;
+}
+
+header p {
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: tahoma;
+    color: darkcyan;
+}
+
+header img {
+    width: 15.27777777777778%; /* 220 : 1440 */
+}
+
+div h2 {
+    text-align: center;
+    font-family: tahoma;
+    color: darkcyan;
+}
+
+.navigation {
+    width: 15.27777777777778%; /* 220 : 1440 */
+    float: left;
+    color: darkcyan;
+    font-size: 18px;
+    line-height: 3vh;
+    font-family: tahoma;
+    font-weight: bold;
+}
+
+main {
+    width: 57.63888888888889%; /* 830 : 1440 */
+    margin-left: 1.666666666666667%;
+    margin-right: 1.666666666666667%;
+    float: left;
+}
+
+main div {
+    width: 100%;
+}
+
+main section {
+    width: 45.66265060240964%; /* 379 : 830 */
+    margin-left: 2.891566265060241%; /* 24 : 830 */
+    float: left;
+}
+
+main section article {
+    height: 185px;
+    margin-bottom: 4.819277108433735%; /* 24 : 498 */
+}
+
+.bottomParagraph {
+    width: 94.21686746987952%; /* 782 : 830 */
+    height: auto;
+}
+
+.bottomParagraph article {
+    height: 72px;
+}
+
+.news {
+    width: 23.75%;
+    float: left;
+}
+
+article h3 {
+    background-color: rgb(45,108,118);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: tahoma;
+}
+
+footer {
+    width: 100%;
+    overflow: hidden;
+    color: darkcyan;
+    font-weight: 900;
+    font-size: 1vw;
+}
+
+p img {
+    float: left;
+    margin-right: 10px;
+}
+
+.FooterTel {
+    width: 33%;
+    float: left;
+}
+
+.FooterSoap {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.FooterAdress {
+    width: 33%;
+    float: left;
+    text-align: right;
+}
+
+.AllNews {  
+    font-weight: bold;
+    font-family: tahoma;    
+}
+
+.HtmlBold {
+    font-weight: bold;
+    color: #ff6600;
+    font-family: tahoma;
+}
+
+.BootstrapBold {
+    font-weight: bold;
+    color: darkviolet;
+    font-family: tahoma;
+}
+
+.CssBold {
+    font-weight: bold;
+    color: blue;
+    font-family: tahoma;
+}
+
+.AngularJSBold {
+    font-weight: bold;
+    color: red;
+    font-family: tahoma;
+}
+
+/* ---------- Медиа запросы ----------*/
+@media (min-width: 960px) and (max-width: 1440px) {
+    .navigation {
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        display: inline-block;
+        width: 15%;
+
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .news {
+        width: 100%;
+    }
+
+    .news article {
+        width: 48.46547314578005%; /* 379 : 782 */
+        float: left;
+        margin: 0%;
+    }
+
+    .news .newsLeft {
+        margin-right: 3.069053708439898%; /* 24 : 782 */
+    }
+
+    header img {
+        width: 15%;
+    }
+
+    footer {
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width: 959px) {
+    .navigation {
+        width: 100%;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        text-align: center;
+    }
+
+    main {
+        width: 100%;
+        /* margin-bottom: 35%; */
+        margin-bottom: 100px;
+    }
+
+    main section {
+        width: 100%;
+    }
+
+    main section article {
+        width: 100%;
+    }
+
+    .news {
+        width: 100%;
+    }
+
+    .news article {
+        width: 48.46547314578005%; /* 379 : 782 */
+        float: left;
+        margin: 0%;
+    }
+
+    .news .newsLeft {
+        margin-right: 3.069053708439898%; /* 24 : 782 */
+    }
+
+    footer {
+        font-size: 2vw;
+    }
+
+    header img {
+        width: 30%;
+    }
+}

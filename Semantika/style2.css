@@ -1,0 +1,81 @@
+body {
+	background-color: beige;
+}
+
+.wrapper {
+	border: 2px solid lightblue;
+	width: 1380px;
+	background-color: lightyellow;
+}
+
+header {
+	border: 2px solid brown;
+}
+
+aside {
+	background-color: skyblue;
+	width: 250px;
+	border: 2px solid black;
+	margin-bottom: 10px; 
+	margin-top: 10px;
+}
+
+article {
+	width: 1000px;
+	border: 2px solid black;
+	margin-bottom: 10px;
+}
+
+.p1 {
+	width: 600px;
+	background-color: lightpink;
+	border: 3px dotted blue;
+	position: relative;
+	top: 300px;
+	left: 600px;
+}
+
+.p2	{
+	width: 450px;
+	background-color: white;
+	border: 2px solid violet;
+	position: relative;
+	top: -200px;
+	left: 300px;
+}
+
+.static {
+	width: 500px;
+	background-color: wheat;
+	border: 2px solid gray;
+	position: relative;
+	top: 650px;
+	left: 300px;
+}
+
+.relative {
+	width: 550px;
+	background-color: cyan;
+	border: 2px solid black;
+	position: relative;
+	top: -300px;
+	left: 40px;
+}
+
+.absolute {
+	width: 600px;
+	background-color: khaki;
+	border: 2px solid green;
+	position: relative;
+	top: -200px;
+	left: 400px;
+}
+
+.fixed {
+	width: 650px;
+	background-color: violet;
+	border: 2px solid lightblue;
+	position: fixed;
+	top: 800px;
+	left: 1380px;
+}

@@ -1,0 +1,185 @@
+body {
+	background-color: rgb(158, 197, 243);
+}
+
+.wrapper {
+	background-color: white;
+	width: 75%;
+	margin: 0px auto;
+}
+
+header {
+	background-color: rgb(216, 254, 231);
+	display: flex;
+	justify-content: space-between;
+	font-family: calibri;
+	color: rgb(100, 101, 243);
+}
+
+.headerlogo {
+	display: flex;
+	justify-content: flex-start;
+	margin: 0.5em;
+}
+
+nav {
+	width: 60%;
+	margin: 0px auto;
+	font-size: 18px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	flex-direction: row;
+}
+
+nav ul li {
+	border: 2px solid green;
+	padding: 0.5em 1em;
+	border-radius: 15px;
+	background-color: khaki;
+	color: rgb(86, 141, 243);
+	font-size: 1.1em;
+}
+
+main {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+main div div img {
+	width: 100%
+}
+
+.StardewParagraph {
+	width: 325px;
+	text-align: justify;
+}
+
+.MinecraftParagraph {
+	width: 325px;
+	text-align: justify;
+}
+
+.HLParagraph {
+	width: 325px;
+	text-align: justify;
+}
+
+.BorderlandsParagraph {
+	width: 325px;
+	text-align: justify;
+}
+
+h3 {
+	font-family: tahoma;
+	color: rgb(86, 141, 243);
+}
+
+h2 {
+	display: flex;
+	flex: justify-content;
+}
+
+footer {
+	display: flex;
+	order: 0;
+}
+
+footer p {
+	margin: 0px auto;
+}
+
+button {
+	display: flex;
+	margin: 0 auto;
+}
+
+main div h3 {
+	margin: 0px auto;
+}
+
+footer {
+	background-color: rgb(216, 254, 231);
+}
+
+footer p {
+	background-color: white;
+	font-size: 20px;
+}
+
+div button {
+	margin-top: auto;
+}
+
+button {
+	padding: 0.5 em;
+	margin: 1em auto;
+}
+
+.button {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	flex-grow: 1;
+}
+
+main div {
+	flex-direction: column;
+	display: flex;
+}
+
+.Gallery {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0px auto;
+}
+
+.img {
+	height: 200px;
+	width: 200px;
+}
+
+form {
+	display: flex;
+	flex-direction: row;
+}
+
+@media (max-width: 840px) {
+	main {
+		justify-content: center;
+	}
+	.Gallery {
+		justify-content: center;
+	}
+	header div h1 {
+		font-size: 26px;
+	}
+	nav {
+		width: 100%;
+		
+	}
+	nav ul {
+		flex-direction: column;
+		width: 100%;
+		padding: 0;
+	}
+	nav ul li {
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+
+	header {
+		flex-direction: column;
+	}
+
+	form {
+		flex-direction: column;
+	}
+}
